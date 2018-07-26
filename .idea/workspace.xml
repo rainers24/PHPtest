@@ -17,10 +17,10 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
-                <marker date="1532597328165" expanded="true" signature="325:393" ph="insert into answers... " />
-                <marker date="1532597328165" expanded="true" signature="512:535" ph="select * fro... questions" />
+                <marker date="1532597381750" expanded="true" signature="316:384" ph="insert into answers... " />
+                <marker date="1532597381750" expanded="true" signature="503:526" ph="select * fro... questions" />
               </folding>
             </state>
           </provider>
@@ -108,12 +108,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532597311628</updated>
-      <workItem from="1532597313009" duration="18000" />
+      <workItem from="1532597313009" duration="71000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18000" />
+    <option name="totallyTimeSpent" value="71000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="22" width="1188" height="827" extended-state="0" />
@@ -152,10 +152,10 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
-            <marker date="1532597328165" expanded="true" signature="325:393" ph="insert into answers... " />
-            <marker date="1532597328165" expanded="true" signature="512:535" ph="select * fro... questions" />
+            <marker date="1532597381750" expanded="true" signature="316:384" ph="insert into answers... " />
+            <marker date="1532597381750" expanded="true" signature="503:526" ph="select * fro... questions" />
           </folding>
         </state>
       </provider>
