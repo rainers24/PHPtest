@@ -46,6 +46,7 @@
 	<p class="question">
 	   <?php echo $question['question'] ?>
 	</p>
+
 	<form method="post" action="process.php">
 	      <ul class="choices">
 	        <?php while($row=$choices->fetch_assoc()): ?>

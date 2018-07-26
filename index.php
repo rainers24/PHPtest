@@ -8,20 +8,16 @@ if (isset($_POST['submit'])) {
     $vards = $_POST['vards'];
     $question = $_POST['question'];
     $_SESSION['vards'] = $vards;
-    if(empty($_POST["vards"])){
+    if (empty($_POST["vards"])) {
         echo "AIZPILDI VĀRDA LAUKU !!!!!";
     }
-
-    $query = "insert into answers (vards , question) values('$vards', '$question')";
-    $insert_row = $mysqli->query($query) or die ($mysqli->error . __LINE__);
-
 }
+
 	//Get the total questions
 	$query="select * from questions";
 	//Get Results
 	$results = $mysqli->query($query) or die ($mysqli->error.__LINE__);
 	$total = $results->num_rows;
-
 
 
 
@@ -56,9 +52,9 @@ if (isset($_POST['submit'])) {
         <li><strong>Izvēlies testu: </strong></li>
 
 	</ul>
-              <a href="question.php?n=1" name="submit" class="start">Tests par Dzivniekiem</a>
-              <a href="question1.php?n=1" name="submit" class="start">Tests par Mašīnām</a>
-              <a href="question2.php?n=1" name="submit" class="start">Tests par Pasauli</a>
+              <a href="question.php?n=1" name="submit" type="submit" class="start">Tests uz atjautību</a>
+              <a href="question1.php?n=1" name="submit" type="submit" class="start">Tests par Mašīnām</a>
+              <a href="question2.php?n=1" name="submit" type="submit" class="start">Tests par Pasauli</a>
 
 
       </div>

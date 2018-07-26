@@ -3,12 +3,17 @@
 <?php
 
 
-$query="select * from questions2";
-$vards = $_SESSION['vards'];
-//Get Results
+$query = "select * from questions2";
+
 $results = $mysqli->query($query) or die ($mysqli->error.__LINE__);
 $total = $results->num_rows;
 
+
+$vards = $_SESSION['vards'];
+$score = $_SESSION['score'];
+$test = 3;
+$query = "insert into answers (vards ,score, total, test ) values('$vards', '$score', '$total', $test)";
+$insert_row = $mysqli->query($query) or die ($mysqli->error . __LINE__);
 
  ?>
 <!DOCTYPE html>
@@ -29,7 +34,7 @@ $total = $results->num_rows;
 
       <main>
 	<div class="container">
-        <h2>Paldies, ka piedalijies !</h2>
+        <h2>Malacis, <?php echo $vards; ?> , esi pabeidzis testu !</h2>
         <p>Rezultāts :<?php echo $_SESSION['score']; ?> no <?php echo $total; ?> jautājumiem </p>
 	     <a href="index.php" class="start">Atgriezties uz sākumu</a>
 	     <?php session_destroy(); ?>

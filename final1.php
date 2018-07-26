@@ -2,12 +2,17 @@
 <?php session_start(); ?>
 <?php
 
-
-$query="select * from questions1";
-$vards = $_SESSION['vards'];
+$query = "select * from questions1";
 
 $results = $mysqli->query($query) or die ($mysqli->error.__LINE__);
 $total = $results->num_rows;
+
+
+$vards = $_SESSION['vards'];
+$score = $_SESSION['score'];
+$test = 2;
+$query = "insert into answers (vards ,score, total, test ) values('$vards', '$score', '$total', $test)";
+$insert_row = $mysqli->query($query) or die ($mysqli->error . __LINE__);
 
 
  ?>
