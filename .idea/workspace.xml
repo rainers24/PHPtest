@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b75b8801-992b-414e-b1d3-1f9c11db4e16" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final.php" afterPath="$PROJECT_DIR$/final.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final1.php" afterPath="$PROJECT_DIR$/final1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final2.php" afterPath="$PROJECT_DIR$/final2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question.php" afterPath="$PROJECT_DIR$/question.php" />
-    </list>
+    <list default="true" id="b75b8801-992b-414e-b1d3-1f9c11db4e16" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +49,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="question2.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <folding>
+                <element signature="e#7#43#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question2.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -140,19 +146,6 @@
               <folding>
                 <marker date="1532591639100" expanded="true" signature="365:391" ph="SELECT * FRO... questions2" />
                 <marker date="1532591639100" expanded="true" signature="520:593" ph="select * fro... choices2" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/process1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1532552384283" expanded="true" signature="365:391" ph="SELECT * FRO... questions1" />
-                <marker date="1532552384283" expanded="true" signature="520:593" ph="select * fro... choices1" />
               </folding>
             </state>
           </provider>
@@ -257,12 +250,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532597311628</updated>
-      <workItem from="1532597313009" duration="4997000" />
+      <workItem from="1532597313009" duration="5377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4997000" />
+    <option name="totallyTimeSpent" value="5377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="22" width="1188" height="827" extended-state="0" />
@@ -408,6 +401,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/question2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1532593884515" expanded="true" signature="162:186" ph="select * fro... questions2" />
+            <marker date="1532593884515" expanded="true" signature="314:365" ph="select * fro... questions2" />
+            <marker date="1532593884515" expanded="true" signature="522:571" ph="select * fro... choices2" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/question1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -420,14 +425,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question2.php">
+    <entry file="file://$PROJECT_DIR$/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding>
-            <marker date="1532593884515" expanded="true" signature="162:186" ph="select * fro... questions2" />
-            <marker date="1532593884515" expanded="true" signature="314:365" ph="select * fro... questions2" />
-            <marker date="1532593884515" expanded="true" signature="522:571" ph="select * fro... choices2" />
+            <element signature="e#7#43#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
