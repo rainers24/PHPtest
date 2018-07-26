@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
     $question = $_POST['question'];
     $_SESSION['vards'] = $vards;
     if(empty($_POST["vards"])){
-        echo "AIZPILDI VĀRDA LAUKU !!!!!";
+        echo "AIZPILDI VĀRDA LAUKU obligati !!!!!";
     }
 
     $query = "insert into answers (vards , question) values('$vards', '$question')";
