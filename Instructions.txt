@@ -1,3 +1,8 @@
+Es izmantoju MAMP serveri, lai varētu pirmkārt "pacelt" pašu Php projektu un arī tur izmantoju jau esošo Mysql datubāzi.
+
+Vairāki faili pēc būtības ir vienādi tādēļ neveicu komentēšanu, kur tas atkārtojas.
+
+
 1)Atveram database.php failu un nomainas attiecīgos mainīgos uz sev nepieciešamajaiem.
 
 2) Pieslēdzamies datubāzei un attiecīgajā SQL query laukā iekopējam Tabulu izveides skriptus kā arī tabulu ievades skriptus, kas ir norādīti šeit mazliet zemāk.

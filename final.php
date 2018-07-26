@@ -2,16 +2,16 @@
 <?php session_start(); ?>
 <?php
 
-$query = "select * from questions";
+$query = "select * from questions"; //A simple query which shows how many rows are in the table
 
 $results = $mysqli->query($query) or die ($mysqli->error.__LINE__);
 $total = $results->num_rows;
 
 
-$vards = $_SESSION['vards'];
-$score = $_SESSION['score'];
-$test = 1;
-$query = "insert into answers (vards ,score, total, test ) values('$vards', '$score', '$total', $test)";
+$vards = $_SESSION['vards']; // passes the variable from the first view
+$score = $_SESSION['score']; // passes the variable from the process view
+$test = 1; //  this is the first test
+$query = "insert into answers (vards ,score, total, test ) values('$vards', '$score', '$total', $test)"; // inserts everyhting in to the database
 $insert_row = $mysqli->query($query) or die ($mysqli->error . __LINE__);
 
 
@@ -38,12 +38,12 @@ $insert_row = $mysqli->query($query) or die ($mysqli->error . __LINE__);
 
       <main>
 	<div class="container">
-	     <h2>Malacis, <?php echo $vards; ?> , esi pabeidzis testu !</h2>
+	     <h2>Malacis, <?php echo $vards; ?> , esi pabeidzis testu !</h2> // includes the vards variable
 
-	     <p>Rezultāts :<?php echo $_SESSION['score']; ?> no <?php echo $total; ?> jautājumiem </p>
+	     <p>Rezultāts :<?php echo $_SESSION['score']; ?> no <?php echo $total; ?> jautājumiem </p> // shows the result
 
-	     <a href="index.php" class="start">Atgriezies uz sākumu</a>
-	     <?php session_destroy(); ?>
+	     <a href="index.php" class="start">Atgriezies uz sākumu</a> // YOU can try out other tests
+	     <?php session_destroy(); ?> //destroys the session so that there wont be any data in variables left
 	</div>
       </main>
 

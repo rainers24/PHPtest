@@ -9,12 +9,12 @@ if (isset($_POST['submit'])) {
     $question = $_POST['question'];
     $_SESSION['vards'] = $vards;
     if (empty($_POST["vards"])) {
-        echo "AIZPILDI VĀRDA LAUKU !!!!!";
+        echo "AIZPILDI VĀRDA LAUKU !!!!!";  // message if you press submit the field is left blank
     }
 }
 
 	//Get the total questions
-	$query="select * from questions";
+	$query="select * from questions";  // query to get how many rows are in the table
 	//Get Results
 	$results = $mysqli->query($query) or die ($mysqli->error.__LINE__);
 	$total = $results->num_rows;
@@ -52,7 +52,7 @@ if (isset($_POST['submit'])) {
         <li><strong>Izvēlies testu: </strong></li>
 
 	</ul>
-              <a href="question.php?n=1" name="submit" type="submit" class="start">Tests uz atjautību</a>
+              <a href="question.php?n=1" name="submit" type="submit" class="start">Tests uz atjautību</a> // can go to desired test
               <a href="question1.php?n=1" name="submit" type="submit" class="start">Tests par Mašīnām</a>
               <a href="question2.php?n=1" name="submit" type="submit" class="start">Tests par Pasauli</a>
 

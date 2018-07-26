@@ -6,10 +6,10 @@
  */
 
 //Create connection credentials
-$db_host = 'localhost';
-$db_name = 'laravel';
-$db_user = 'laravel';
-$db_pass = 'abcd1234';
+$db_host = 'localhost';  // All the time it is localhost
+$db_name = 'YOUR_DB_NAME'; //
+$db_user = 'YOUR_USER_NAME';
+$db_pass = 'YOUR_PASSWORD';
 
 //Create mysqli object
 $mysqli = new mysqli($db_host,$db_user,$db_pass,$db_name);
